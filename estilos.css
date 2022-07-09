@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 1px;
+    font-size: 1.3rem;
+}
+
+.back {
+    background-color: bisque;
+    font-size: 4rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.logo {
+    border-radius: 50%;
+    display: block;
+
+
+}
+
+.titulo {
+    color: darkred;
+    font-size: 4rem;
+    text-align: center;
+    height: 100px;
+}
+
+.banner {
+    max-width: 1938px;
+    width: 100%;
+    height: 20rem;
+    background-color: black;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    border-style: dotted;
+
+
+}
+
+.main {
+    height: 20px;
+    width: fit-content;
+}
+
+.menusuperiorli {
+    display: inline-block
+}
+
+.menusuperior {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right;
+    text-decoration: none;
+
+}
+
+.p1 {
+    color: red;
+    font-size: medium;
+    font-size: 1.5rem;
+
+}
+
+.p {
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    width: 50%;
+    padding: 10;
+    box-sizing: border-box;
+    text-justify: inter-word;
+    word-spacing: 0.2cm;
+
+
+}
+
+.divpadre {
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    grid-template-columns: repeat (2, 1fr);
+    justify-items: start;
+    justify-content: space-around 10px;
+    background-color: beige;
+    justify-self: auto;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .divpadre {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: 1 / 3
+    }
+
+    .banner {
+        max-width: 700px;
+    }
+
+    .contenido {
+        font-size: 12px;
+        grid-column: 1 / 3
+    }
+
+    .titulo {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .body {
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .banner {
+        max-width: 400px;}
+    .divpadre {  
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: 1 / 3}
+    .contenido {
+        font-size: 10px;
+        grid-column: 1 / 3
+    }
+
+    .titulo {
+        font-size: 2em;
+        text-align:center
+    }
+}
+
+
+
+
+
+
+.seccion {
+    display: grid;
+    background-color: cadetblue;
+    width: fit-content;
+    font-size: 1.2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-style: dashed;
+
+
+}
+
+.pfinal {
+    color: goldenrod;
+    text-decoration-color: blue;
+}
+
+
+
+
+.li {
+    display: inline-block;
+}
+
+.ul {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right
+}
+
+.tiendaimg {
+    box-sizing: border-box;
+    border-style: dotted;
+}
+
+.galeimg {
+    display: inline-block;
+}

@@ -20,7 +20,7 @@
             <div>
                 <img src="../img/mologo.jpg" alt="Logo Molotov" height="100" class="logo">
             </div>
-            <ul style="text-decoration: none; text-transform: uppercase ; background-color: black; color: white; padding: 1rem; font-size: 1.5rem; font-weight: 600;
+            <ul class="flexpadre"style="text-decoration: none; text-transform: uppercase ; background-color: black; color: white; padding: 1rem; font-size: 1.5rem; font-weight: 600;
     text-align: right">
                 <li style="display: inline-block"><a href="../index.html">Home</a></li>
                 <li style="display: inline-block"> Tienda</li>
@@ -41,9 +41,11 @@
         <h1 class="p1">En esta sección encontrarás todos los productos que necesitas para ser un verdadero fan de Molotov
         </h1>
     </nav>
-    <img style="width: 17.8%;" src="../img/remera.jpg" alt="Remera de Molotov" class="tiendaimg">
-    <img style="width: 15.2%;" src="../img/remera2.jpg" alt="Remera de Molotov2" class="tiendaimg">
-    <img style="width: 15.3%;" src="../img/buzo.jpg" alt="Buzo de Molotov" class="tiendaimg">
+    <div class="divpadretienda">
+    <img class="imgtienda1" src="../img/remera.jpg" alt="Remera de Molotov" class="tiendaimg">
+    <img class="imgtienda" src="../img/remera2.jpg" alt="Remera de Molotov2" class="tiendaimg">
+    <img class="imgtienda" src="../img/buzo.jpg" alt="Buzo de Molotov" class="tiendaimg">
+    </div>
     <legend>Elige el tipo</legend>
     <label>
         <input type="radio" name="Tipo" value="Remera N°1"> Remera N°1
@@ -55,7 +57,7 @@
         <input type="radio" name="Tipo" value="Buzo"> Buzo
     </label>
 
-
+    <div>
     <legend>Elige la cantidad</legend>
     <label>
         <input type="radio" name="numero" value="1"> 1
@@ -67,14 +69,14 @@
         <input type="radio" name="numero" value="3"> 3
     </label>
     <label>
-        <input type="radio" name="numero" value="3"> 4
+        <input type="radio" name="numero" value="4"> 4
     </label>
     <input type="submit" value="Enviar"> <input type="reset">
     </form>
     <p>Los productos están sujetos a disponibilidad de stock</p>
     <footer id="abajo">
         <p><a href="#arriba"> Ir arriba</a></p>
-
+    </div>
 
 
     </footer>

@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <!-- CSS only -->
+    <script src="https://kit.fontawesome.com/2a44f8d049.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos.css">
 </head>
 
 
 <body class="back">
-    <header>
+    <header class="container-fluid">
         <nav>
             <div>
-                <img src="../img/mologo.jpg" alt="Logo Molotov" height="100" class="logo">
-            </div>
-            <ul style="text-decoration: none; text-transform: uppercase ; background-color: black; color: white; padding: 1rem; font-size: 1.5rem; font-weight: 600;
-    text-align: right">
+            <a href="/index.html">    
+                <img src="../img/mologo.jpg" alt="Logo Molotov" class="logo">
+            </a>
+            <ul class="flexpadre menusuperior">
                 <li style="display: inline-block"><a href="../index.html">Home</a></li>
                 <li style="display: inline-block"> <a href="./tienda.html"> Tienda</a></li>
                 <li style="display: inline-block"><a href="./galeria.html"> Galeria </a></li>
@@ -31,6 +32,7 @@
         </nav>
     </header>
     <main id="arriba">
+        <h1 class="titulo text-center text-uppercase display-3 font-weight-bold mt-4">Molotov</h1>
         <p><a href="#abajo">Ir abajo</a></p>
     </main>
     <nav> <img class="banner" src="../img/banner2.jpg" alt="Banner"></nav>
@@ -38,24 +40,26 @@
     <form>
         <P>
         <label for="nombre">Nombre: </label>
-                  <input type="text" id="nombre"><br>
+                  <input type="text" id="nombre" class="form-control my-3" placeholder="Juan"><br>
         <label for="apellido">Apellido: </label>
-                  <input type="text" id="apellido"><br>
+                  <input type="text" id="apellido" class="form-control my-3" placeholder="Pérez"><br>
         <label for="email">Email: </label>
-                  <input type="text" id="email"><br>
+                  <input type="text" id="email"class="form-control my-3"placeholder="ejemplo@mail.com"><br>
+                  <button class="btn btn-success btn-outline-light">Enviar</button><button class="btn btn-success btn-outline-light">Restrablecer</button>
       
-        <input type="submit" value="Enviar"> <input type="reset">
         </P>
     </form></nav>
     <p>El tiempo de respuesta oscila entre las 24hs y las 72hs.</p>
     <footer id="abajo">
         <p><a href="#arriba"> Ir arriba</a></p>
+        <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-tiktok"></i>
 
 
 
     </footer>
-</body>
-<!-- JavaScript Bundle with Popper -->
+    <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
 
 </html>

@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 1px;
+    margin: 0.5px;
     font-size: 12px;
 }
 
@@ -104,13 +104,7 @@
 
 }
 
-.divpadretienda {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-   
-    width: 100%;
 
-}
  .display-3 { font-weight: 500;
 
 }
@@ -135,15 +129,15 @@
     }
 
     .contenido {
-        font-size: 12px;
-        grid-column: 1 / span 1;
+        font-size: 14px;
+       
         grid-row: auto;
         width: 90%;
         text-align: center;
         max-width: 90%;
 
     }
-
+   
     .contenido2 {
         font-size: 14px;
         grid-column: 1 / span 1;
@@ -163,7 +157,7 @@
     .seccion {
         display: grid;
         grid-column: 2 / span 2;
-        font-size: 13px;
+        font-size: 18px;
         max-width: 100%;
         width: 100%;
     }
@@ -173,16 +167,23 @@
     }
 
     .ul2 {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .imgtienda {
         width: 100%;
+        max-width: 100%;
     }
    .menusuperiorli {
     font-size: 18px;
    }
-
+   .galeimgctr {
+    max-width: 90%;
+    
+   }
+   .galeimg {
+    max-width: 90%;
+   }
 }
 
 
@@ -212,6 +213,7 @@
         grid-row: auto;
         max-height: fit-content;
         width: 90%;
+        text-align: center;
     }
 
     .titulo {
@@ -232,15 +234,18 @@
     }
 
     .ul2 {
-        font-size: 12px;
+        font-size: 15px;
     }
 
 
     .imgtienda {
-        width: 100%;
+        width: 90%;
     }
-
-   
+  
+    .galeimg {
+    width: 90%;
+    max-width: 90%;
+   }
 
 }
 
@@ -284,23 +289,23 @@
     text-align: right;
 }
 
-.tiendaimg {
-    box-sizing: border-box;
-    border-style: dotted;
-
-}
 
 .galeimg {
-    display: inline-block;
+  max-width: 100%;
+  width: 100% ;
+  
 }
 
 .imgtienda {
-  display: grid;
-  grid-template-columns: repeat(3,1fr 1fr 1fr);
-    width: 200px;
+ 
+
+   
     box-sizing: border-box;
     border-style: dotted;
     max-width: 100%;
+    box-sizing: border-box;
+    border-style: dotted;
+
 }
 .imgtienda1 {
     width: 240px;
@@ -354,8 +359,8 @@
 
 }
 .textanim {
-    transform: translate(-40px,-60px);
-    font-size: 150%;
+    transform: translate(-40px,-40px);
+    font-size: 130%;
     animation-name: efecto;
     animation-iteration-count: infinite;
     animation-duration: 10s;

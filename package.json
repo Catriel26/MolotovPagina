@@ -1,7 +1,7 @@
 {
   "name": "sitio",
   "version": "1.0.0",
-  "description": "<h1> MolotovPagina </h1>",
+  "description": "MolotovPagina",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -226,6 +226,12 @@
 .fa-tiktok::before {
   font-size: 3rem; }
 
+.animacionimg {
+  animation-name: efecto2;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-delay: 2s; }
+
 .gradienteback {
   background-image: linear-gradient(black, green);
   border: solid 2px; }

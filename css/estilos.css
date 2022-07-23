@@ -204,15 +204,19 @@
 
 .galeimg {
   max-width: 100%;
-  width: 100%; }
+  width: 100%;
+  box-sizing: border-box;
+  border-style: dotted;
+  animation-name: efecto2;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-delay: 2s; }
 
 .imgtienda {
   box-sizing: border-box;
   border-style: dotted;
   max-width: 400px;
-  max-height: 300px;
-  box-sizing: border-box;
-  border-style: dotted; }
+  max-height: 300px; }
 
 .fa-instagram::before {
   font-size: 3rem; }
@@ -225,12 +229,6 @@
 
 .fa-tiktok::before {
   font-size: 3rem; }
-
-.animacionimg {
-  animation-name: efecto2;
-  animation-iteration-count: infinite;
-  animation-duration: 10s;
-  animation-delay: 2s; }
 
 .gradienteback {
   background-image: linear-gradient(black, green);

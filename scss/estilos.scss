@@ -315,6 +315,12 @@
 .galeimg {
     max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
+    border-style: dotted;
+    animation-name: efecto2;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 2s;
 
 }
 
@@ -326,9 +332,7 @@
     border-style: dotted;
     max-width: 400px;
     max-height: 300px;
-    box-sizing: border-box;
-    border-style: dotted;
-
+    
 
 }
 
@@ -348,14 +352,7 @@
 .fa-tiktok::before {
     font-size: 3rem;
 }
-.animacionimg
-{
-    animation-name: efecto2;
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-delay: 2s;
 
-}
 
 .gradienteback {
     background-image: linear-gradient(black, green);

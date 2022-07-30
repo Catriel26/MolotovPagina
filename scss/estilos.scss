@@ -88,28 +88,32 @@
 
 }
 /* SASS */
-
-ul {
+.menu
+    ul {
     text-transform: uppercase;
     background-color: black;
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
     text-align: right;
-    li {
+        li {
         display: inline-block;
         font-size: $font-size;
 
+     }
+    a {
+        display: block;
     }
-
-
+        &:hover {
+            text-decoration: underline;
+        }
 
 
 
 
 }   
 header {
-    background-image: linear-gradient(black, green);
+    background-image: linear-gradient(black, $color-primary);
     border: solid 2px;
 
 
@@ -407,7 +411,7 @@ header {
     }
 
     75% {
-        color: white;
+        color: $color-text;
         font-size: 80%;
     }
 
@@ -418,7 +422,7 @@ header {
 }
 
 a:visited {
-    color: white;
+    color: $color-text;
 }
 
 @keyframes efecto2 {

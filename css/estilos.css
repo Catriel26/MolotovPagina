@@ -40,12 +40,6 @@
   height: 20px;
   width: fit-content; }
 
-.p1 {
-  color: darkred;
-  font-size: medium;
-  font-size: 1.5rem;
-  text-align: center; }
-
 .p1:hover {
   text-decoration: underline; }
 
@@ -64,7 +58,6 @@
 .display-3 {
   font-weight: 500; }
 
-/* SASS */
 .menu
 ul {
   text-transform: uppercase;
@@ -82,6 +75,17 @@ header {
   background-image: linear-gradient(black, darkgreen);
   border: solid 2px; }
 
+.p1 {
+  background-color: none;
+  color: darkred;
+  font-size: 1.5rem;
+  width: 98%;
+  padding: 8;
+  box-sizing: none;
+  text-justify: inter-word;
+  word-spacing: 0.4cm;
+  margin-left: 12px; }
+
 .p {
   background-color: none;
   color: white;
@@ -92,6 +96,18 @@ header {
   text-justify: inter-word;
   word-spacing: 0.3cm;
   margin-left: 15px; }
+
+.entradas {
+  background-color: none;
+  color: white;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 12;
+  box-sizing: none;
+  text-justify: inter-word;
+  word-spacing: 0.3cm;
+  margin-left: 15px;
+  text-align: center; }
 
 @media screen and (max-width: 769px) {
   .divpadre {

@@ -54,14 +54,7 @@
 }
 
 
-.p1 {
-    color: $color-secundary;
-    font-size: medium;
-    font-size: 1.5rem;
-    text-align: center;
 
-
-}
 .p1:hover {
     text-decoration: underline;
 }
@@ -87,7 +80,7 @@
     font-weight: 500;
 
 }
-/* SASS */
+
 .menu
     ul {
     text-transform: uppercase;
@@ -114,20 +107,33 @@ header {
 
 
 }
-.p {
-    background-color: none;
-    color: white;
-    font-size: 1.2rem;
-    width: 98%;
-    padding: 10;
-    box-sizing: none;
-    text-justify: inter-word;
-    word-spacing: 0.3cm;
-    margin-left: 15px;
 
-
-}
     
+@mixin parrafo ($background-color, $color, $font-size, $width, $padding, $box-sizing, $text-justify, $word-spacing, $margin-left) {
+
+    background-color: $background-color; 
+    color: $color;
+    font-size: $font-size;
+    width: $width;
+    padding : $padding;
+    box-sizing: $box-sizing;
+    text-justify: $text-justify;
+    word-spacing: $word-spacing;
+    margin-left: $margin-left;
+}
+ 
+    
+.p1 {
+    @include parrafo (none, $color-secundary,1.5rem,98%,8,none,inter-word,0.4cm,12px)
+}
+.p {
+    @include parrafo (none, white,1.2rem,98%,10,none,inter-word,0.3cm,15px)
+}
+.entradas {
+    @include parrafo(none,white , 1.3rem, 100%, 12,none, inter-word, 0.3cm,15px);
+    text-align: center;
+}
+
 
 @media screen and (max-width: 769px) {
     .divpadre {

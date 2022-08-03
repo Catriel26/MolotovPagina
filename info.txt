@@ -1,1 +1,1 @@
-Cambié la descripción del index, las keywords en cada html y un poco de mixins en el index más que nada para los parrafos.
+Cambié la descripción del index, las keywords en cada html y un poco de mixins en el index más que nada para los parrafos. Además mejoré el tiempo de carga disminuyendo algunas caracteristicas del banner.

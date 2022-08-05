@@ -1,7 +1,7 @@
 {
-  "name": "sitio",
+  "name": "Proyecto Página Web en CoderHouse",
   "version": "1.0.0",
-  "description": "MolotovPagina",
+  "description": "Página Web Sobre la Banda Mexicana Molotov",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/Catriel26/MolotovPagina.git"
   },
-  "author": "",
+  "author": "Elias Catriel Alvarez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Catriel26/MolotovPagina/issues"

@@ -1,18 +1,31 @@
 @import "variables";
+@import "button";
 
 * {
     padding: 0;
-    margin: 0.5px;
+    margin: 2.5px;
     font-size: $font-size;
 }
 
 .back {
-    background-color: rgb(29, 66, 34);
+   
+    flex-direction: column;
+    background-color: $color-primary;
     font-size: 4rem;
     font-family: 'Rubik', sans-serif;
+    min-height: 100%;
+    min-width: 100%;
 }
 
+.footer {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 1rem;
+margin-top: auto;
 
+
+}
 
 .logo {
     border-radius: 50%;
@@ -49,19 +62,10 @@
 
 }
 
-.main {
-    height: 20px;
-    width: fit-content;
-}
 
 
 
-.p1:hover {
-    text-decoration: underline;
-}
-.p:hover {
-    text-decoration: underline;
-}
+
 
 
 .divpadre {
@@ -85,7 +89,7 @@
 .menu
     ul {
     text-transform: uppercase;
-    background-color: black;
+    background-color: $color-terciario;
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
@@ -103,14 +107,14 @@
 
 }   
 header {
-    background-image: linear-gradient(black, $color-primary);
+    background-image: linear-gradient($color-terciario, $color-primary);
     border: solid 2px;
 
 
 }
 
     
-@mixin parrafo ($background-color, $color, $font-size, $width, $padding, $box-sizing, $text-justify, $word-spacing, $margin-left) {
+@mixin parrafo ($background-color, $color, $font-size, $width, $padding, $box-sizing, $text-justify, $word-spacing, $margin-left, $text-align) {
 
     background-color: $background-color; 
     color: $color;
@@ -121,17 +125,18 @@ header {
     text-justify: $text-justify;
     word-spacing: $word-spacing;
     margin-left: $margin-left;
+    text-align: center
 }
  
     
 .p1 {
-    @include parrafo (none, $color-secundary,1.5rem,98%,8,none,inter-word,0.4cm,12px)
+    @include parrafo (none, $color-terciario,1.5rem,98%,8,none,inter-word,0.4cm,15px, center)
 }
 .p {
-    @include parrafo (none, white,1.2rem,98%,10,none,inter-word,0.3cm,15px)
+    @include parrafo (none, $color-terciario,1.2rem,98%,10,none,inter-word,0.3cm,15px, center)
 }
 .entradas {
-    @include parrafo(none,white , 1rem, 90%, 12,none, inter-word, 0.3cm,15px);
+    @include parrafo(none, $color-terciario , 1rem, 90%, 12,none, inter-word, 0.3cm,15px, center);
     text-align: center;
 }
 
@@ -172,6 +177,7 @@ header {
         grid-column: 1 / span 1;
         width: 90%;
         max-width: 100%;
+        position: center;
     }
 
     .titulo {
@@ -180,16 +186,16 @@ header {
 
     }
 
-    .body {
-        font-size: $font-size;
-    }
-
+ 
     .seccion {
-        display: grid;
-        grid-column: 2 / span 2;
+        display: flex;
         font-size: 18px;
         max-width: 100%;
         width: 100%;
+        color: $color-secundary;
+        position: center;
+        height: 100%;
+      
     }
 
     .video {
@@ -257,10 +263,10 @@ header {
     }
 
     .seccion {
-        display: grid;
-        grid-column: 1 / span 1;
+        display: flex;
         font-size: 10px;
         max-width: 100%;
+        color: $color-secundary;
 
     }
 
@@ -291,20 +297,21 @@ header {
 
 
 .seccion {
-
-    background-color: cadetblue;
-    width: fit-content;
-
-    padding: 2rem;
+    display: flex;
+    background-color: $color-terciario;
+    color: $color-secundary;
     box-sizing: border-box;
-    border-style: dashed;
+    justify-content: center;
+    align-items: flex-start;
+   
+
 
 
 
 }
 
 .pfinal {
-    color: goldenrod;
+    color: $color-terciario;
     text-decoration-color: blue;
     font-size: $font-size;
     text-align: center;
@@ -370,7 +377,7 @@ header {
 
     
     border-color: brown;
-    transform: translate(20px);
+    transform: translate(30px);
 
 }
 
@@ -380,14 +387,14 @@ header {
 }
 
 .tituloanim:hover {
-    color: black;
+    color: $color-text;
     transform: scale(1.2, 1.2);
     text-decoration: underline;
 
 }
 
 .textanim {
-    transform: translate(-0px, -40px);
+    transform: translate(50px, 10px);
     font-size: 130%;
     animation-name: efecto;
     animation-iteration-count: infinite;

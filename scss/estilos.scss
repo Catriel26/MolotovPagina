@@ -47,7 +47,7 @@ background-image: linear-gradient($color-primary, $color-terciario)
 
 .banner {
     max-width: 1938px;
-    max-height: 400px;
+    max-height: 600px;
     width: 100%;
     height: 30rem;
     background-color: black;
@@ -231,7 +231,9 @@ header {
     }
 
     .galeimg {
-        max-width: 90%;
+        
+       max-width: 750px;
+       max-height: 400px;
     }
 }
 
@@ -299,8 +301,8 @@ header {
 
 
     .galeimg {
-        width: 90%;
-        max-width: 90%;
+        max-width: 380px;
+        max-height: 200px;
     }
 
     .entradas {
@@ -350,21 +352,21 @@ header {
     max-width: 100%;
     width: 100%;
     box-sizing: border-box;
-    border-style: dotted;
     animation-name: efecto2;
     animation-iteration-count: infinite;
     animation-duration: 10s;
     animation-delay: 2s;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
 .imgtienda {
 
 
-
+    display: inline-block;
     box-sizing: border-box;
-    border-style: dotted;
-    max-width: 400px;
+    max-width: 500px;
     max-height: 300px;
     
 

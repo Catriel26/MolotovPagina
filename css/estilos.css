@@ -1,7 +1,8 @@
 * {
   padding: 0;
-  margin: 2.5px;
-  font-size: 18px; }
+  margin-left: 6.5px;
+  font-size: 18px;
+  margin-right: 6.5px; }
 
 .back {
   flex-direction: column;
@@ -13,10 +14,11 @@
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  margin-top: auto; }
+  margin-top: auto;
+  background-image: linear-gradient(gray, black); }
 
 .logo {
   border-radius: 50%;
@@ -32,7 +34,7 @@
 
 .banner {
   max-width: 1938px;
-  max-height: 320px;
+  max-height: 400px;
   width: 100%;
   height: 30rem;
   background-color: black;
@@ -45,7 +47,12 @@
   animation-name: efecto2;
   animation-iteration-count: infinite;
   animation-duration: 10s;
-  animation-delay: 2s; }
+  animation-delay: 2s;
+  object-fit: cover;
+  margin-right: 6.5px; }
+
+.botones {
+  margin-right: 10px; }
 
 .divpadre {
   display: grid;
@@ -124,7 +131,8 @@ header {
     grid-template-columns: repeat(1, 1fr);
     width: 100%; }
   .banner {
-    max-width: 769px; }
+    max-width: 769px;
+    object-fit: cover; }
   .contenido {
     font-size: 18px;
     grid-row: auto;
@@ -154,7 +162,10 @@ header {
     font-size: 18px; }
   .imgtienda {
     width: 100%;
-    max-width: 100%; }
+    max-width: 100%;
+    align-items: center;
+    display: block;
+    margin: auto; }
   .galeimgctr {
     max-width: 90%; }
   .galeimg {
@@ -162,7 +173,8 @@ header {
 
 @media screen and (max-width: 400px) {
   .banner {
-    width: 100%; }
+    width: 100%;
+    object-fit: cover; }
   .divpadre {
     grid-template-columns: repeat(1, 1fr); }
   .flexpadre {
@@ -183,17 +195,26 @@ header {
     font-size: 2em; }
   .seccion {
     display: flex;
-    font-size: 10px;
+    font-size: 1em;
     max-width: 100%;
     color: darkred; }
+  .section {
+    align-self: center; }
   .video {
     max-width: 100%; }
   .ul2 {
     font-size: 15px; }
   .imgtienda {
-    width: 90%; }
+    width: 90%;
+    align-items: center; }
   .galeimg {
     width: 90%;
+    max-width: 90%; }
+  .entradas {
+    margin-left: 0;
+    font-size: 10px; }
+  .textanim {
+    font-size: 10px;
     max-width: 90%; } }
 
 .seccion {
@@ -227,36 +248,35 @@ header {
   max-height: 300px; }
 
 .fa-instagram::before {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: white; }
 
 .fa-facebook::before {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: white; }
 
 .fa-twitter::before {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: white; }
 
 .fa-tiktok::before {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: white; }
 
 .imgtienda:hover {
   transform: scale(1.2, 1.2);
   border-color: green; }
-
-.imganim:hover {
-  border-color: brown;
-  transform: translate(30px); }
 
 .imglogo {
   transform: translate(0px, 47px); }
 
 .tituloanim:hover {
   color: white;
-  transform: scale(1.2, 1.2);
   text-decoration: underline; }
 
 .textanim {
-  transform: translate(50px, 10px);
-  font-size: 130%;
+  transform: translate(35px, 10px);
+  font-size: 110%;
   animation-name: efecto;
   animation-iteration-count: infinite;
   animation-duration: 10s;

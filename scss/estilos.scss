@@ -24,8 +24,8 @@
     align-items: center;
     padding: 1rem;
     margin-top: auto;
-    background-image: linear-gradient($color-primary, $color-terciario)
-
+    background-image: linear-gradient($color-primary, $color-terciario);
+    border: solid 2px;
 }
 
 .logo {
@@ -147,10 +147,9 @@ header {
     @include parrafo (none, $color-terciario,1.2rem,98%,10,none,inter-word,0.3cm,15px, center,1em,1em)
 }
 .entradas {
-    @include parrafo(none, $color-terciario , 1rem, 90%, 12,none, inter-word, 0.3cm,15px, center,1em,1em);
+    @include parrafo(none, $color-terciario , 1.3rem, 100%, 12,none, inter-word, 0.3cm,15px, center,1em,1em);
     text-align: center;
 }
-
 
 @media screen and (max-width: 769px) {
     .divpadre {
@@ -242,6 +241,9 @@ header {
     .nosotros {
         max-width: 100%;
     }
+    .entradas {
+        font-size: 22px;
+    }
 }
 
 
@@ -269,7 +271,7 @@ header {
     }
 
     .contenido {
-        font-size: 12px;
+        font-size: 16px;
         grid-column: 1 / span 1;
         grid-row: auto;
         max-height: fit-content;
@@ -315,7 +317,7 @@ header {
 
     .entradas {
         margin-left: 0;
-        font-size: 10px;
+        font-size: 18px;
     }
     .textanim {
         font-size: 10px;

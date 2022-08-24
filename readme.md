@@ -2,6 +2,9 @@
 
 <p> Este es un repositorio para el curso de Desarrollo Web de CoderHouse <p>
 
-<h2> Subtitulo </h2>
+<h2> Herramientas Utilizadas</h2>
 
-<p> No sabia sobre que hacer la página por ende la hice sobre una banda amada <p>
+<p> HTML5 y CSS3, flexbox, bootstrap, scss <p>
+
+<div>
+<img  src="./img/vistapreviapagina.png" alt="Vista Previa de Pagina Web">

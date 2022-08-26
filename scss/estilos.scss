@@ -76,26 +76,26 @@
 
 
 .botones {
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
     
    
 
 }
 .botones {
     &:visited { }
-    &:hover { }
+    &:hover {color: $color-secundary; }
     &:active { }
   }
 
 .botones-container {
  
-        display: flex;  
-        justify-content: center;
-        align-items: center;
-        height:200px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height:200px;
       
-       }
+}
     
 
 
@@ -103,52 +103,36 @@
     text-align: center;
 }
 
-.divpadre {
-    display: grid;
-    grid-template-rows: repeat(2, 50px);
-    grid-template-columns: repeat (2, 1fr 1fr);
-    justify-items: start;
-    justify-content: space-around 10px;
-    background-color: $color-terciario;
-    justify-self: auto;
-
-
-}
-
-
 .display-3 {
     font-weight: 500;
 
 }
 
-.menu
-    ul {
-    text-transform: uppercase;
-    background-color: $color-terciario;
-    padding: 1rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: right;
-        li {
-        display: inline-block;
-        font-size: $font-size;
-
-     }
-   
-    
-     
-
-
-
-} 
-.row {
-    justify-content: space-between;
-}  
-header {
+.header {
     background-image: linear-gradient($color-terciario, $color-primary);
     border: solid 2px;
-
-
+        
+        &__div {  }  
+   
+           
+            &__ul {
+                display: flex;
+                flex-direction: column;
+                text-transform: uppercase;
+                background-color: $color-terciario;
+                padding: 1rem;
+                font-size: 1.5rem;
+                font-weight: 600;
+                text-align: right;}
+                   &__li {
+                    display: inline-block;
+                    font-size: $font-size;
+            
+                  }
+           
+             
+       
+    
 }
 
     
@@ -168,7 +152,8 @@ header {
     padding-bottom: $padding-bottom
 }
  
-    
+.row {
+    justify-content: space-between;}
 .p1 {
     @include parrafo (none, $color-terciario,1.5rem,98%,8,border-box,inter-word,0.4cm,10px, center, 1em,1em)
 }
@@ -274,6 +259,10 @@ header {
     .entradas {
         font-size: 18px;
         max-width: 90%;
+        width: 90%;
+    }
+    .footer {
+        flex-wrap: wrap;
     }
   
 }
@@ -357,6 +346,9 @@ header {
     }
     .nosotros {
         max-width: 100%;
+    }
+    .footer {
+        flex-wrap: wrap;
     }
 }
 
@@ -457,7 +449,7 @@ header {
 
 .textanim {
     transform: translate(35px, 10px);
-    font-size: 110%;
+    font-size: 100%;
     animation-name: efecto;
     animation-iteration-count: infinite;
     animation-duration: 10s;
@@ -472,22 +464,22 @@ header {
 
     25% {
         color: brown;
-        font-size: 120%;
+        
     }
 
     50% {
         color: $color-secundary;
-        font-size: 120%;
+      
     }
 
     75% {
         color: $color-text;
-        font-size: 80%;
+       
     }
 
     100% {
         color: $color-terciario;
-        font-size: 140%;
+     
     }
 }
 

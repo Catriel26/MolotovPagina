@@ -25,5 +25,8 @@
 <div>
 <img src="./img/screenshot6.png" alt="Vista Previa de Página Web">
 </div>
-<h4> Autor: Catriel Alvarez <h4>
+
+<h4> Pda: Las capturas fueron previas al cambio de banner" <h4>
+<h5> Autor: Catriel Alvarez <h4>
+
 

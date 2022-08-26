@@ -24,14 +24,14 @@
 <h3> Pda: Las capturas fueron previas al cambio de banner" <h3>
 
 <ul> Librerias Utilizadas:
-<li> HTML </li>CSS SCSS BOOTSTRAP
-<li> CSS </li>
-<li> SCSS </li>
-<li> BOOTSTRAP </li>
+    <li> HTML </li>CSS SCSS BOOTSTRAP
+    <li> CSS </li>
+    <li> SCSS </li>
+    <li> BOOTSTRAP </li>
 </ul>
-<ul> Sistema de Control de Versiones: </ul>
-<li> GITHUB </li>
-
+<ul> Sistema de Control de Versiones:
+    <li> GITHUB </li>
+</ul>
 <h4> Autor: Catriel Alvarez <h6>
 
 

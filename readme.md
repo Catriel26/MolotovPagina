@@ -32,6 +32,6 @@
 <ul> Sistema de Control de Versiones:
     <li> GITHUB </li>
 </ul>
-<h4> Autor: Catriel Alvarez <h6>
+<h4> Autor: Catriel Alvarez <h4>
 
 

@@ -2,7 +2,8 @@
   padding: 0;
   margin-left: 6.5px;
   font-size: 18px;
-  margin-right: 6.5px; }
+  margin-right: 6.5px;
+  box-sizing: border-box; }
 
 .back {
   flex-direction: column;
@@ -60,7 +61,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px; }
+  height: 200px; }
 
 .container-img {
   text-align: center; }
@@ -103,10 +104,10 @@ header {
   font-size: 1.5rem;
   width: 98%;
   padding: 8;
-  box-sizing: none;
+  box-sizing: border-box;
   text-justify: inter-word;
   word-spacing: 0.4cm;
-  margin-left: 15px;
+  margin-left: 10px;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em; }
@@ -131,7 +132,7 @@ header {
   font-size: 1.3rem;
   width: 100%;
   padding: 12;
-  box-sizing: none;
+  box-sizing: border-box;
   text-justify: inter-word;
   word-spacing: 0.3cm;
   margin-left: 15px;
@@ -196,7 +197,8 @@ header {
   .nosotros {
     max-width: 100%; }
   .entradas {
-    font-size: 22px; } }
+    font-size: 18px;
+    max-width: 90%; } }
 
 @media screen and (max-width: 400px) {
   .banner {

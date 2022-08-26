@@ -6,6 +6,7 @@
     margin-left: 6.5px;
     font-size: $font-size;
     margin-right: 6.5px;
+    box-sizing: border-box;
 }
 
 .back {
@@ -43,6 +44,11 @@
     font-size: 4rem;
     height: 100px;
     background-color: $color-terciario;
+    &:hover {
+        color: $color-text;
+        text-decoration: underline;
+    }
+    
 }
 
 .banner {
@@ -76,12 +82,18 @@
    
 
 }
+.botones {
+    &:visited { }
+    &:hover { }
+    &:active { }
+  }
+
 .botones-container {
  
-        display: flex;
+        display: flex;  
         justify-content: center;
         align-items: center;
-        height:400px;
+        height:200px;
       
        }
     
@@ -158,13 +170,13 @@ header {
  
     
 .p1 {
-    @include parrafo (none, $color-terciario,1.5rem,98%,8,none,inter-word,0.4cm,15px, center, 1em,1em)
+    @include parrafo (none, $color-terciario,1.5rem,98%,8,border-box,inter-word,0.4cm,10px, center, 1em,1em)
 }
 .p {
     @include parrafo (none, $color-terciario,1.2rem,98%,10,none,inter-word,0.3cm,15px, center,1em,1em)
 }
 .entradas {
-    @include parrafo(none, $color-terciario , 1.3rem, 100%, 12,none, inter-word, 0.3cm,15px, center,1em,1em);
+    @include parrafo(none, $color-terciario , 1.3rem, 100%, 12,border-box, inter-word, 0.3cm,15px, center,1em,1em);
     text-align: center;
 }
 
@@ -260,7 +272,8 @@ header {
         max-width: 100%;
     }
     .entradas {
-        font-size: 22px;
+        font-size: 18px;
+        max-width: 90%;
     }
   
 }
@@ -440,10 +453,7 @@ header {
     transform: translate(0px, 47px);
 }
 
-.tituloanim:hover {
-    color: $color-text;
-    text-decoration: underline;
-}
+
 
 .textanim {
     transform: translate(35px, 10px);

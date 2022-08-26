@@ -57,6 +57,10 @@
   margin-right: 8px; }
 
 .botones-container {
+  text-align: center;
+  padding-top: 10px; }
+
+.container-img {
   text-align: center; }
 
 .divpadre {
@@ -190,10 +194,7 @@ header {
   .nosotros {
     max-width: 100%; }
   .entradas {
-    font-size: 22px; }
-  .col-sm-3 {
-    display: inline-block;
-    width: 30%; } }
+    font-size: 22px; } }
 
 @media screen and (max-width: 400px) {
   .banner {

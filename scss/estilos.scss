@@ -78,8 +78,12 @@
 }
 .botones-container {
     text-align: center;
+    padding-top: 10px;
 }
 
+.container-img {
+    text-align: center;
+}
 
 .divpadre {
     display: grid;
@@ -252,12 +256,7 @@ header {
     .entradas {
         font-size: 22px;
     }
-    .col-sm-3 {
-        display: inline-block;
-        width: 30%;
-      
-        
-    }
+  
 }
 
 

@@ -57,8 +57,10 @@
   margin-right: 8px; }
 
 .botones-container {
-  text-align: center;
-  padding-top: 10px; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; }
 
 .container-img {
   text-align: center; }

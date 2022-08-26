@@ -69,8 +69,15 @@
 
 
 
-.botones {margin-right: 10px;
+.botones {
+    margin-left: 8px;
+    margin-right: 8px;
+    
+   
 
+}
+.botones-container {
+    text-align: center;
 }
 
 
@@ -206,6 +213,7 @@ header {
         color: $color-secundary;
         position: center;
         height: 100%;
+        
       
     }
 
@@ -219,8 +227,8 @@ header {
     }
 
     .imgtienda {
-        width: 33%;
-        max-width: 33%;
+        width: 75%;
+        max-width: 75%;
         align-items: center;
         display: block;
         margin: auto;
@@ -243,6 +251,12 @@ header {
     }
     .entradas {
         font-size: 22px;
+    }
+    .col-sm-3 {
+        display: inline-block;
+        width: 30%;
+      
+        
     }
 }
 

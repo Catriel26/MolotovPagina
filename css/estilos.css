@@ -53,7 +53,11 @@
   margin-right: 6.5px; }
 
 .botones {
-  margin-right: 10px; }
+  margin-left: 8px;
+  margin-right: 8px; }
+
+.botones-container {
+  text-align: center; }
 
 .divpadre {
   display: grid;
@@ -171,8 +175,8 @@ header {
   .ul2 {
     font-size: 18px; }
   .imgtienda {
-    width: 33%;
-    max-width: 33%;
+    width: 75%;
+    max-width: 75%;
     align-items: center;
     display: block;
     margin: auto;
@@ -186,7 +190,10 @@ header {
   .nosotros {
     max-width: 100%; }
   .entradas {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .col-sm-3 {
+    display: inline-block;
+    width: 30%; } }
 
 @media screen and (max-width: 400px) {
   .banner {

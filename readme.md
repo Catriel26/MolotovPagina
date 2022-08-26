@@ -22,11 +22,16 @@
 <img src="./img/screenshot6.png" alt="Vista Previa de Página Web">
 </div>
 <h3> Pda: Las capturas fueron previas al cambio de banner" <h3>
-<h4> Librerias Utilizadas:</h4>
-<p>BOOTSTRAP</p>
-<h5> Sistema de Control de Versiones: <h5>
-<p> GITHUB <p>
 
-<h6> Autor: Catriel Alvarez <h6>
+<ul> Librerias Utilizadas:
+<li> HTML </li>CSS SCSS BOOTSTRAP
+<li> CSS </li>
+<li> SCSS </li>
+<li> BOOTSTRAP </li>
+</ul>
+<ul> Sistema de Control de Versiones: </ul>
+<li> GITHUB </li>
+
+<h4> Autor: Catriel Alvarez <h6>
 
 

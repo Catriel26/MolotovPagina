@@ -74,13 +74,14 @@
   border: solid 2px; }
   .header__ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-transform: uppercase;
     background-color: black;
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
-    text-align: right; }
+    text-align: right;
+    justify-content: flex-end; }
   .header__li {
     display: inline-block;
     font-size: 18px; }
@@ -191,7 +192,9 @@
     max-width: 90%;
     width: 90%; }
   .footer {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .header__ul {
+    flex-direction: column; } }
 
 @media screen and (max-width: 400px) {
   .banner {
@@ -242,7 +245,9 @@
   .nosotros {
     max-width: 100%; }
   .footer {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .header__ul {
+    flex-direction: column; } }
 
 .nosotros {
   display: flex;

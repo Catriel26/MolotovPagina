@@ -115,13 +115,14 @@
            
             &__ul {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 text-transform: uppercase;
                 background-color: $color-terciario;
                 padding: 1rem;
                 font-size: 1.5rem;
                 font-weight: 600;
-                text-align: right;}
+                text-align: right;
+                justify-content: flex-end;}
                    &__li {
                     display: inline-block;
                     font-size: $font-size;
@@ -262,6 +263,7 @@
     .footer {
         flex-wrap: wrap;
     }
+    .header__ul {flex-direction: column;}
   
 }
 
@@ -348,6 +350,7 @@
     .footer {
         flex-wrap: wrap;
     }
+    .header__ul {flex-direction: column;}
 }
 
 
